@@ -1,13 +1,13 @@
 // array , object
 let bajarlist: string[] = ["elma", "armut", "muz"];
 
-bajarlist.push(12);
+// bajarlist.push(12);
 
 let mixArray: (string | number | boolean)[] = [1, "iki", true];
 
 mixArray.push(false);
 
-let con: [number, number] = [20, 20, 5];
+// let con: [number, number] = [20, 20, 5];
 
 //reference type : object
 
@@ -41,6 +41,6 @@ const user: {
   isMarred: false,
 };
 
-user.organization = "New Org";
+// user.organization = "New Org";
 
 console.log(user);
