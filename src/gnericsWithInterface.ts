@@ -1,4 +1,4 @@
-interface developer<T,X> {
+interface developer<T,X = null> {
   name: string;
   salary: number;
   device: {
@@ -51,5 +51,7 @@ const richDeveloper: developer<advancedSmartWatch> = {
     heartRate: "72 bpm",
     callSupport: true,
     ai: true,
+    stopWatch: true,
+    gps: true,
   },
 };
